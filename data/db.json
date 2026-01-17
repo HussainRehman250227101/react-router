@@ -1,0 +1,28 @@
+{
+    "posts":[
+        {
+            "id": 1,
+            "title":"My first Post",
+            "datetime":"August 02, 2026 11:12:02 AM",
+            "body":"Above is my first post! Above is my first post! Above is my first post! "
+        },
+        {
+            "id": 2,
+            "title":"My second Post",
+            "datetime":"July 02, 2025 11:12:02 AM",
+            "body":"Above is my second post! Above is my second post! Above is my second post! "
+        },
+        {
+            "id":3,
+            "title":"My third Post",
+            "datetime":"December 02, 2027 11:12:02 AM",
+            "body":"Above is my third post! Above is my third post! Above is my third post! "
+        },
+        {
+            "id": 4,
+            "title":"My forth Post",
+            "datetime":"May 03, 2025 11:12:02 AM",
+            "body":"Above is my forth post! Above is my forth post! Above is my forth post! "
+        }
+    ]
+}

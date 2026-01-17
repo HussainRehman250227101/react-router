@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  min-height: 100vh;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 60px;
+  width: 100vw;
+}
+nav ul {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgb(54, 48, 48);
+  padding: 10px;
+} 
+
+nav ul li{
+  display: inline-block;
+  font-size: large;
+  margin: 0 10px;
+  color: rgb(11, 129, 213);
+}
+
+.active li{
+  color: rgb(224, 44, 44);
+  font-weight: bold;
+}
+
+.navlink{
+  transform: scale(1);
+  transition: transform 0.25s linear;
+}
+
+.navlink:hover{
+  transform: scale(1.2);
+
+}
+
+.root-layout{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.outlet{
+  flex-grow: 1;
+}
+.outlet ul{
+  display: flex;
+  gap: 20px;
+  justify-content: start;
+  align-items: start;
+  width: 80vw;
+  margin-top: 30px;
+}
+.outlet ul li{
+  display: flex;
+  flex-direction: column;
+}
+
+.list-item{
+  border: 2px solid rgb(104, 82, 82);
+  padding: 5px;
+  height: 150px;
+  width: 300px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.list-item h2{
+  margin-bottom: 5px;
+}
+.list-item .para{
+  margin-top: 5px;
+}
+
+footer{
+  min-width: 80vw;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgb(66, 58, 58);
+  margin: 3px 60px;
+  font-weight:bold ;
+  padding: 10px 60px;
+  text-align: center;
+
+}
