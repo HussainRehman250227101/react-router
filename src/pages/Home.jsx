@@ -4,7 +4,8 @@ import ListItem from '../components/ListItem'
 
 const Home = () => {
 
-  const posts = useLoaderData()
+ 
+  const posts =  useLoaderData();
 
   return (
     <div className='outlet'>
@@ -21,7 +22,7 @@ export default Home;
 
 export const postLoader = async()=> {
   
-  const response  = await api.get('/')
+  const response  = await api.get('/posts')
   if (!response.status == 200 ) throw new Error("data didn't Fetched, please refresh")
   return response.data
 }
